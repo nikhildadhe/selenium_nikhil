@@ -66,7 +66,7 @@ public class Base_Test {
 	//   String browser = System.getProperty("browserName");	
 
 		if (browser.contains("chrome")) {
-			 
+			  
 			driver = new ChromeDriver();
 		} else if (browser.contains("firefox")) {
 			driver = new FirefoxDriver();
